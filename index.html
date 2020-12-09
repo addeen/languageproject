@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Language Shapes Our Thinking</title>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        
+
+    </head>
+    
+
+    
+    <body>
+
+        <img id="map" src="mapeurope.jpg">
+
+        <p id="introduction"> We are all trying to say the same<br/> but how we say it is different.<br/></p>
+        <p id="toelichting"> This map illustrates how<br/> <i>kill two birds with one stone</i><br/>is translated throughout Europe</p>
+        
+        <p id="uitleg"> - Press your mouse to hide the map - <br/> - Hover over the countries to hear the translations - </p>
+
+        <div class="birds" id="Spain">
+            <p>birds</p>
+            <audio id="spainaudio" preload="auto">
+                <source src="./Spain.mp3">
+            </audio>
+        </div>
+        
+        <div class="rabbits" id="Portugal">
+            <p>rabbits</p>
+            <audio id="portugalaudio" preload="auto">
+                <source src="./Portugal.mp3">
+            </audio>
+        </div>
+
+        <div class="original" id="France">
+            <p>unspecified</p>
+            <audio id="franceaudio" preload="auto">
+                <source src="./France.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Switzerland">
+            <p>flies</p>
+            <audio id="switzerlandaudio" preload="auto">
+                <source src="./Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Liechtenstein">
+            <p>flies</p>
+            <audio id="liechtensteinaudio" preload="auto">
+                <source src="./Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Netherlands">
+            <p>flies</p>
+            <audio id="dutchaudio" preload="auto">
+                <source src="./Dutch.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Belgium1">
+            <p>flies</p>
+            <audio id="belgium1audio" preload="auto">
+                <source src="Dutch.mp3">
+            </audio>
+        </div>
+
+        <div class="original" id="Belgium2">
+            <p>unspecified</p>
+            <audio id="belgium2audio" preload="auto">
+                <source src="France.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Germany">
+            <p>flies</p>
+            <audio id="germanyaudio" preload="auto">
+                <source src="German.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Denmark">
+            <p>flies</p>
+            <audio id="denmarkaudio" preload="auto">
+                <source src="Dutch.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="UK">
+            <p>birds</p>
+            <audio id="ukaudio" preload="auto">
+                <source src="UK.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Ireland">
+            <p>birds</p>
+            <audio id="irelandaudio" preload="auto">
+                <source src="UK.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Luxembourg">
+            <p>flies</p>
+            <audio id="luxaudio" preload="auto">
+                <source src="German.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Norway">
+            <p>flies</p>
+            <audio id="norwayaudio" preload="auto">
+                <source src="Dutch.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Sweden">
+            <p>flies</p>
+            <audio id="swedenaudio" preload="auto">
+                <source src="Sweden.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Finland">
+            <p>flies</p>
+            <audio id="finlandaudio" preload="auto">
+                <source src="Finland.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Iceland">
+            <p>birds</p>
+            <audio id="icelandaudio" preload="auto">
+                <source src="Iceland.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Andorra">
+            <p>birds</p>
+            <audio id="andorraaudio" preload="auto">
+                <source src="Spain.mp3">
+            </audio>
+        </div>
+
+        <div class="original" id="Italy">
+            <p>pigeons</p>
+            <audio id="italyaudio" preload="auto">
+                <source src="Italy.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Czech">
+            <p>flies</p>
+            <audio id="czechaudio" preload="auto">
+                <source src="Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Austria">
+            <p>flies</p>
+            <audio id="austriaaudio" preload="auto">
+                <source src="Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Slovenia">
+            <p>flies</p>
+            <audio id="slovaudio" preload="auto">
+                <source src="Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Croatia">
+            <p>flies</p>
+            <audio id="croatiaaudio" preload="auto">
+                <source src="Switzerland.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="BH">
+            <p>flies</p>
+            <audio id="BHaudio" preload="auto">
+                <source src="Serbia.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Serbia">
+            <p>flies</p>
+            <audio id="serbiaaudio" preload="auto">
+                <source src="Serbia.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Montenegro">
+            <p>flies</p>
+            <audio id="monteaudio" preload="auto">
+                <source src="Serbia.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Macedonia">
+            <p>flies</p>
+            <audio id="maceaudio" preload="auto">
+                <source src="Serbia.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Slovakia">
+            <p>flies</p>
+            <audio id="slovakiaaudio" preload="auto">
+                <source src="Hungary.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Hungary">
+            <p>flies</p>
+            <audio id="hunaudio" preload="auto">
+                <source src="Hungary.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Albania">
+            <p>birds</p>
+            <audio id="alaudio" preload="auto">
+                <source src="Albania.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Kosovo">
+            <p>birds</p>
+            <audio id="kosaudio" preload="auto">
+                <source src="Albania.mp3">
+            </audio>
+        </div>
+
+        <div class="original" id="Greece">
+            <p>doves</p>
+            <audio id="greeceaudio" preload="auto">
+                <source src="Greece.mp3">
+            </audio>
+        </div>
+
+        <div class="birds" id="Turkey">
+            <p>birds</p>
+            <audio id="turkeyaudio" preload="auto">
+                <source src="Turkey.mp3">
+            </audio>
+        </div>
+
+        <div class="rabbits" id="Bulgaria">
+            <p>rabbits</p>
+            <audio id="bulaudio" preload="auto">
+                <source src="Bulgaria.mp3">
+            </audio>
+        </div>
+
+        <div class="rabbits" id="Romania">
+            <p>rabbits</p>
+            <audio id="romaudio" preload="auto">
+                <source src="Romania.mp3">
+            </audio>
+        </div>
+
+        <div class="original" id="Poland">
+            <p>meat</p>
+            <audio id="polaudio" preload="auto">
+                <source src="Poland.mp3">
+            </audio>
+        </div>
+
+        <div class="rabbits" id="Moldova">
+            <p>rabbits</p>
+            <audio id="molaudio" preload="auto">
+                <source src="Romania.mp3">
+            </audio>
+        </div>
+
+        <div class="hares" id="Ukraine">
+            <p>hares</p>
+            <audio id="ukraineaudio" preload="auto">
+                <source src="Ukraine.mp3">
+            </audio>
+        </div>
+
+        <div class="hares" id="Belarus">
+            <p>hares</p>
+            <audio id="belaudio" preload="auto">
+                <source src="Ukraine.mp3">
+            </audio>
+        </div>
+
+        <div class="hares" id="Latvia">
+            <p>hares</p>
+            <audio id="latviaaudio" preload="auto">
+                <source src="Latvia.mp3">
+            </audio>
+        </div>
+
+        <div class="hares" id="Lithuania">
+            <p>hares</p>
+            <audio id="litaudio" preload="auto">
+                <source src="Latvia.mp3">
+            </audio>
+        </div>
+
+        <div class="flies" id="Estonia">
+            <p>flies</p>
+            <audio id="estoniaaudio" preload="auto">
+                <source src="Estonian.mp3">
+            </audio>
+        </div>
+
+        <div class="hares" id="Russia">
+            <p>hares</p>
+            <audio id="rusaudio" preload="auto">
+                <source src="Russia.mp3">
+            </audio>
+        </div>
+
+        <script src="audio.js"></script>
+
+
+    </body>
+
+    </html>

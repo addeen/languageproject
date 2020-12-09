@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* background */
+
+
+#map {
+    position: absolute;
+    width: 100%;
+    filter: opacity(100%);
+}
+
+#map:active {
+    position: absolute;
+    width: 100%;
+    filter: opacity(0%);
+}
+
+body{
+    background:#6a1aff;}
+
+#introduction{
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    
+    font-family: 'IBM Plex Sans';
+    font-size: 65px;
+    text-align: right;
+    line-height: 100px;
+    font-weight: 800;
+    
+    color: white;
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);
+}
+
+#toelichting{
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-size: 30px;
+    line-height: 60px;
+}
+
+#uitleg{
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    left: 380px;
+    color: white;
+    font-family: 'IBM Plex Sans';
+    font-size: 20px;
+    line-height: 40px;
+    transform: rotate(295deg);
+}
+
+
+/* words */
+.birds {
+    color: dodgerblue;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center; 
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);}
+
+.birds:hover{
+    cursor: pointer;
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+
+.rabbits {
+    color: black;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center; 
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);}
+
+.rabbits:hover{
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.hares {
+    color: #eaaff5;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center; 
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);}
+
+.hares:hover{
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.original {
+    color:#f56d1e;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center; 
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);}
+
+.original:hover{
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.flies {
+    color:#2bfec7;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center; 
+    text-shadow: 0 0.1em 0 rgba(0,0,0,0.1);}
+
+.flies:hover{
+    font-size: 100px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+
+
+/* countries */
+#Spain{
+    position: absolute;
+    top: 785px;
+    left: 810px;
+}
+
+#France{
+    position: absolute;
+    top: 650px;
+    left: 930px;
+}
+
+#Portugal{
+    position: absolute;
+    top: 785px;
+    left: 710px;
+}
+
+#Switzerland{
+    position: absolute;
+    top: 680px;
+    left: 1050px;
+}
+
+#Liechtenstein{
+    position: absolute;
+    top: 675px;
+    left: 1095px;
+}
+
+#Netherlands{
+    position: absolute;
+    top: 535px;
+    left: 1035px;
+}
+
+#Belgium1{
+    position: absolute;
+    top: 560px;
+    left: 1000px;
+}
+
+#Belgium2{
+    position: absolute;
+    top: 575px;
+    left: 980px;
+}
+
+#Germany{
+    position: absolute;
+    top: 575px;
+    left: 1095px;
+}
+
+#Denmark{
+    position: absolute;
+    top: 445px;
+    left: 1122px;
+}
+
+#UK{
+    position: absolute;
+    top: 505px;
+    left: 930px;
+}
+
+#Ireland{
+    position: absolute;
+    top: 435px;
+    left: 837px;
+}
+
+#Luxembourg{
+    position: absolute;
+    top: 600px;
+    left: 1035px;
+}
+
+#Norway{
+    position: absolute;
+    top: 310px;
+    left: 1120px;
+}
+
+#Sweden{
+    position: absolute;
+    top: 350px;
+    left: 1210px;
+}
+
+#Finland{
+    position: absolute;
+    top: 290px;
+    left: 1350px;
+}
+
+#Iceland{
+    position: absolute;
+    top: 100px;
+    left: 865px;
+}
+
+#Andorra{
+    position: absolute;
+    top: 765px;
+    left: 920px;
+}
+
+#Italy{
+    position: absolute;
+    top: 720px;
+    left: 1070px;
+}
+
+#Czech{
+    position: absolute;
+    top: 610px;
+    left: 1185px;
+}
+
+#Austria{
+    position: absolute;
+    top: 680px;
+    left: 1160px;
+}
+
+#Slovenia{
+    position: absolute;
+    top: 715px;
+    left: 1180px;
+}
+
+#Croatia{
+    position: absolute;
+    top: 735px;
+    left: 1190px;
+}
+
+#BH{
+    position: absolute;
+    top: 765px;
+    left: 1233px;
+}
+
+#Serbia{
+    position: absolute;
+    top: 765px;
+    left: 1290px;
+}
+
+#Montenegro{
+    position: absolute;
+    top: 805px;
+    left: 1245px;
+}
+
+#Macedonia{
+    position: absolute;
+    top: 835px;
+    left: 1307px;
+}
+
+#Slovakia{
+    position: absolute;
+    top: 635px;
+    left: 1255px;
+}
+
+#Hungary{
+    position: absolute;
+    top: 690px;
+    left: 1255px;
+}
+
+#Albania{
+    position: absolute;
+    top: 855px;
+    left: 1275px;
+}
+
+#Kosovo{
+    position: absolute;
+    top: 810px;
+    left: 1285px;
+}
+
+#Greece{
+    position: absolute;
+    top: 920px;
+    left: 1315px;
+}
+
+#Turkey{
+    position: absolute;
+    top: 885px;
+    left: 1470px;
+}
+
+#Bulgaria{
+    position: absolute;
+    top: 805px;
+    left: 1360px;
+}
+
+#Romania{
+    position: absolute;
+    top: 710px;
+    left: 1350px;
+}
+
+#Poland{
+    position: absolute;
+    top: 550px;
+    left: 1250px;
+}
+
+#Moldova{
+    position: absolute;
+    top: 675px;
+    left: 1415px;
+}
+
+#Ukraine{
+    position: absolute;
+    top: 605px;
+    left: 1430px;
+}
+
+#Belarus{
+    position: absolute;
+    top: 510px;
+    left: 1385px;
+}
+
+#Latvia{
+    position: absolute;
+    top: 425px;
+    left: 1340px;
+}
+
+#Lithuania{
+    position: absolute;
+    top: 465px;
+    left: 1320px;
+}
+
+#Estonia{
+    position: absolute;
+    top: 370px;
+    left: 1352px;
+}
+
+#Russia{
+    position: absolute;
+    top: 370px;
+    left: 1475px;
+}
